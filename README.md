@@ -3,10 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Ideas for goals
-+ All fish
-+ All fossils
-+ All art
-+ All sea creatures
++ Complete museum
 + All golden tools
 + All gyroids
 + own royal crown
