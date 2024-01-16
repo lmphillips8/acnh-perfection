@@ -1,0 +1,17 @@
+.seasonal-diys {
+  .items {
+    position: relative;
+    left: -12px;
+  }
+
+  .tabs {
+    z-index: 1;
+  }
+
+  .diy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}

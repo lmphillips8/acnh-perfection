@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'StardewFont';
+  src: local('StardewFont'), url(../assets/Stardew_Valley.ttf) format('truetype');
+}
+
+html * {
+  font-family: StardewFont, Arial, serif !important;
+  color: rgb(79, 11, 7);
+
+}
+
+body {
+  background-image: url(../assets/background.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  ;
+}
+
+.home {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  .perfection-tracker {
+    padding: 20px;
+    background-color: #feca80;
+    border-width: 8px;
+    border-style: solid;
+    border-image:
+      radial-gradient(circle, rgba(245, 149, 36, 1) 0%, rgba(245, 149, 36, 1) 67%, rgba(154, 69, 30, 1) 100%) 30;
+    width: fit-content;
+    margin-top: 20px;
+
+    p {
+      font-size: 20px;
+      margin-bottom: 5px;
+
+      &:hover {
+        cursor: pointer
+      }
+    }
+
+    span.perfect {
+      color: #b700ff
+    }
+  }
+}
+
+.list {
+  text-align: center;
+  margin-top: 10px;
+
+  .loading {
+    margin-top: 30px;
+  }
+
+  .goal-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .scroll {
+
+      width: 200px;
+      background-image: url(../assets/scroll.png);
+      height: 60px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h1 {
+        line-height: 60px;
+        color: rgb(79, 11, 7);
+      }
+    }
+  }
+
+  .goal {
+
+    display: inline-flex;
+
+    .tabs {
+
+      margin-top: 20px;
+
+      button {
+        background-color: #feca80;
+        margin: 5px 0px;
+        border: #ba6312 8px solid;
+        color: rgb(79, 11, 7);
+        margin-left: -4px;
+        border-top-left-radius: 20px !important;
+        border-bottom-left-radius: 20px !important;
+        font-size: 22px;
+
+        &.selected {
+          border-right: none
+        }
+      }
+
+
+    }
+
+    .back-to-tracker {
+      p {
+        font-size: 20px;
+        position: absolute;
+        margin-top: -25px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .items {
+      background-color: rgb(254, 196, 124);
+      border-width: 8px;
+      border-style: solid;
+      border-image:
+        radial-gradient(circle, rgba(245, 149, 36, 1) 0%, rgba(245, 149, 36, 1) 67%, rgba(154, 69, 30, 1) 100%) 30;
+      overflow-y: scroll;
+      height: 85vh;
+    }
+
+    .item {
+      text-align: center;
+
+      img {
+
+        height: 75px;
+
+        &.silhouette {
+          -webkit-filter: contrast(0%) brightness(50%) !important;
+          filter: contrast(0%) brightness(50%) !important;
+          opacity: 0.5 !important;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      p {
+        font-size: 20px;
+        color: rgb(79, 11, 7);
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.small-back {
+  margin-top: 0 !important;
+  top: 5px;
+  left: 5px;
+
+}
+
+.help {
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  svg {
+    font-size: 32px;
+  }
+}
+
+.enter-island-modal {
+  .modal-title {
+    font-size: 32px;
+  }
+
+  .modal-content {
+    background-color: rgb(254, 196, 124);
+    border-radius: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-image:
+      radial-gradient(circle, rgba(245, 149, 36, 1) 0%, rgba(245, 149, 36, 1) 67%, rgba(154, 69, 30, 1) 100%) 30;
+
+    input {
+      font-size: 28px;
+      width: 100%;
+      border: none;
+      border-bottom: thin solid rgb(79, 11, 7);
+      background-color: transparent;
+
+      &:focus {
+        outline: none !important;
+        border-bottom: thin solid rgb(79, 11, 7);
+      }
+    }
+  }
+
+
+
+  .modal-header,
+  .modal-footer {
+    // border-color: rgb(79, 11, 7);
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none
+  }
+
+  .submit-name {
+    background-color: rgb(79, 11, 7);
+    border-color: rgb(79, 11, 7);
+    border-radius: 0;
+
+    color: white;
+    margin-bottom: 10px;
+  }
+}
+
+.perfection-modal {
+  .modal-content {
+    background-color: rgb(254, 196, 124);
+    border-radius: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-image:
+      radial-gradient(circle, rgba(245, 149, 36, 1) 0%, rgba(245, 149, 36, 1) 67%, rgba(154, 69, 30, 1) 100%) 30;
+  }
+
+  .modal-header {
+    border-color: rgb(79, 11, 7);
+  }
+}
+
+.help-modal {
+  width: 80vw;
+  min-width: 80vw;
+  max-width: 80vw;
+
+  .modal-content {
+    max-height: 90vh;
+    min-height: 90vh;
+    height: 90vh;
+    background-color: rgb(254, 196, 124);
+    overflow-y: scroll;
+    border-radius: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-image:
+      radial-gradient(circle, rgba(245, 149, 36, 1) 0%, rgba(245, 149, 36, 1) 67%, rgba(154, 69, 30, 1) 100%) 30;
+
+    p {
+      font-size: 18px;
+      ;
+    }
+
+    .modal-header,
+    .modal-footer {
+      border-color: rgb(79, 11, 7);
+    }
+
+    .modal-title {
+      font-size: 28px;
+
+    }
+
+    .reset-button {
+      background-color: rgb(79, 11, 7);
+      border-color: rgb(79, 11, 7);
+      border-radius: 0;
+
+      color: white;
+      margin-bottom: 10px;
+      ;
+    }
+
+  }
+
+  .got-it {
+    background-color: rgb(79, 11, 7);
+    border-color: rgb(79, 11, 7);
+    border-radius: 0;
+    ;
+    color: white
+  }
+
+}
+
+@media (max-width: 576px) {
+  .perfection-tracker {
+    width: calc(80vw) !important;
+  }
+
+  .help-modal {
+    min-width: calc(100% - 16px);
+  }
+}
+
+@import './goldenTools.scss';
+@import './museum.scss';
+@import './diys.scss';
+@import './friends.scss';

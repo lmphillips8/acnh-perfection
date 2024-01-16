@@ -1,0 +1,90 @@
+.friendship {
+  .goal {
+    width: 65vw !important;
+  }
+
+  .search-bar {
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  .MuiAutocomplete-input {
+    font-size: 20px;
+    color: rgb(79, 11, 7) !important;
+  }
+
+  .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(79, 11, 7) !important;
+  }
+
+  .MuiInputLabel-root.Mui-focused {
+    font-size: 16px !important;
+    color: rgb(79, 11, 7) !important;
+  }
+
+
+
+  .border-display {
+    border: 3px solid;
+    border-top-color: rgb(186, 124, 87);
+    border-right-color: rgb(186, 124, 87);
+    border-bottom-color: rgb(124, 58, 31);
+    border-left-color: rgb(124, 58, 31);
+  }
+
+  .items {
+    width: 65vw !important;
+
+    .item {
+      text-align: left !important;
+
+      p {
+        margin-left: 15px;
+        display: inline;
+        font-size: 36px !important;
+      }
+
+      img {
+        display: inline;
+        width: 96px;
+        height: auto !important;
+      }
+
+    }
+
+  }
+
+  .hearts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+    .ten-hearts {
+      height: 36px;
+      width: auto;
+    }
+  }
+}
+
+.MuiPaper-root {
+  font-size: 20px !important;
+  background-color: rgb(253, 213, 164) !important;
+  border: thin solid rgb(79, 11, 7);
+}
+
+@media (max-width: 980px) {
+  .friendship {
+
+    .goal,
+    .items {
+      width: 96vw !important;
+
+      .ten-hearts {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}

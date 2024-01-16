@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.52cabaa8.css",
+    "main.js": "/static/js/main.258b1ae5.js",
+    "static/js/787.f966ce91.chunk.js": "/static/js/787.f966ce91.chunk.js",
+    "static/media/background.jpeg": "/static/media/background.1a11150d187af93be1d6.jpeg",
+    "static/media/bugs-stamp.png": "/static/media/bugs-stamp.d36e0a25410622fc1b33.png",
+    "static/media/diy-stamp.png": "/static/media/diy-stamp.ed94b18c8f9cd1748a4d.png",
+    "static/media/plants-shrub-stamp.png": "/static/media/plants-shrub-stamp.544d69d4edad9284993f.png",
+    "static/media/tools-golden_net-stamp.png": "/static/media/tools-golden_net-stamp.86ed0c312da2908e12a5.png",
+    "static/media/tools-stamp.png": "/static/media/tools-stamp.8bfd951e2ea13f584d7f.png",
+    "static/media/plants-apple_tree-stamp.png": "/static/media/plants-apple_tree-stamp.7651979af7a7e30687f4.png",
+    "static/media/bells-stamp.png": "/static/media/bells-stamp.fc189d1fa80b26bc2e29.png",
+    "static/media/exterior-designer_path-stamp.png": "/static/media/exterior-designer_path-stamp.0a0eb99118ddde97ff06.png",
+    "static/media/togetherness-stamp.png": "/static/media/togetherness-stamp.35158c3c1c7cea16c9d6.png",
+    "static/media/island-resident-stamp.png": "/static/media/island-resident-stamp.8f5264b9d8207e66b90f.png",
+    "static/media/misadventures-stamp.png": "/static/media/misadventures-stamp.f0f0d899b045b5e0e06b.png",
+    "static/media/custom-design-stamp.png": "/static/media/custom-design-stamp.e96bea2846fef5dc2380.png",
+    "static/media/nookphone-stamp.png": "/static/media/nookphone-stamp.795d75aad4acebf05eb9.png",
+    "static/media/fish-stamp.png": "/static/media/fish-stamp.8df245cd54ae221b8f8a.png",
+    "static/media/exterior-stamp.png": "/static/media/exterior-stamp.b1d454a12cace50a580f.png",
+    "static/media/exterior-island_flag-stamp.png": "/static/media/exterior-island_flag-stamp.6259631a702c035ea251.png",
+    "static/media/sea-creatures-stamp.png": "/static/media/sea-creatures-stamp.6befb0b6954c42cd7db7.png",
+    "static/media/ten-hearts.png": "/static/media/ten-hearts.a99932b674388917107e.png",
+    "static/media/royal-crown.png": "/static/media/royal-crown.1266f7741ac34698fc5d.png",
+    "static/media/scroll.png": "/static/media/scroll.07591e270f40bf6ff50a.png",
+    "static/media/Stardew_Valley.ttf": "/static/media/Stardew_Valley.94d4418a519004763596.ttf",
+    "index.html": "/index.html",
+    "main.52cabaa8.css.map": "/static/css/main.52cabaa8.css.map",
+    "main.258b1ae5.js.map": "/static/js/main.258b1ae5.js.map",
+    "787.f966ce91.chunk.js.map": "/static/js/787.f966ce91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52cabaa8.css",
+    "static/js/main.258b1ae5.js"
+  ]
+}

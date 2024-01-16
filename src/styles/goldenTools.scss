@@ -1,0 +1,23 @@
+.golden-tools {
+
+  .goal {
+    display: block;
+    max-width: 600px;
+  }
+
+  .scroll {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  .items {
+    max-height: 60vh;
+
+    .tool {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
